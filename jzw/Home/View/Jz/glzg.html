@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>家政网</title>
+	<script type="text/javascript">
+	var url="/index.php/Index";
+ 	</script>
+	<link rel="stylesheet" type="text/css" href="/Public/css/jzw.css" />
+ 	<script src="/public/js/jQuery.js"></script>
+ 	<script src="/Public/js/jzw.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        $('.glzg').load("{:U('/Jz/ajglzg')}");
+    });
+    </script>
+</head>
+<body>
+<div id="global">
+<include file="Index/showlogo" />
+<include file="Index/showclassify" />
+
+<if condition="R('User/checklogin') eq 1"> <include file="User/userbar" />
+<else /> <include file="User/loginpage" />
+</if>
+
+<div id="info_border">
+<div style="padding:10px 10px 10px 10px;">
+
+   <div class="glzg"></div>
+
+<div class="page" style="margin:10px;text-align:right;">{$page}</div>
+</div>
+</div>
+<include file="Index/qiuzhi" />
+<include file="Index/showjiazhenggongsi" />
+</div>
+<include file="Index/tail"/>
+</body>
+</html>

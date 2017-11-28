@@ -1,0 +1,19 @@
+<div id="loginpage_border">
+<div style="padding-top:5px;">
+<ul style="text-align:center">
+	<li >欢迎您：{:session('name')}</li>
+	<li style="padding-top:2px"><a href="{:U('User/revisepage')}">修改资料</a></li>
+	<if condition="session('type') eq 2">
+		<li style="padding-top:2px"><a href="{:U('/Jz/zgpage')}">发布招工信息</a></li>
+		<li style="padding-top:2px"><a href="{:U('/Jz/glzg')}">管理招工信息</a></li>
+		<li style="padding-top:2px"><a href="{:U('/Jz/qzpage')}">发布求职信息</a></li>
+		<li style="padding-top:2px"><a href="{:U('/Jz/glqz')}">管理求职信息</a></li>
+	<elseif condition="session('type') eq 0" />
+		<li style="padding-top:2px"><a href="{:U('/User/upload_idpicturepage')}">上传身份资料完成注册</a></li>
+	<else />
+		<li style="padding-top:2px">身份资料正在审核中</li>
+	</if>
+	<li style="padding-top:2px"><a href="{:U('/User/logout')}">退出</a></li>
+</ul>
+</div>
+</div>

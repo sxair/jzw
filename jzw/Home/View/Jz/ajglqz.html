@@ -1,0 +1,21 @@
+<table style="width:97%;margin:5px;text-align:center">
+    <tr style="background:#D2F9F9">
+        <th style="width:10%">编号</th>
+        <th style="width:60%">标题</th>
+        <th style="width:30%">操作</th>
+    </tr>
+    <volist name="qz" id="vo">
+        <if condition="$vo[qiuzhi_id] neq ''"> 
+        	<tr><td>{$vo.qiuzhi_id}</td>
+     		<td><a href="{:U('/Jz/qzinfo',array('id'=>$vo[qiuzhi_id]))}"  target="_Blank">{$vo.title}</a></td>
+	        <td><a href="{:U('/Jz/reqzpage',array(qiuzhi_id=>$vo[qiuzhi_id]))}">修改</a>&nbsp&nbsp&nbsp
+            <if condition="$vo[status] eq 0">
+            <a href="{:U('/Jz/reqzstatus',array(status=>1,qiuzhi_id=>$vo[qiuzhi_id]))}">已工作</a>
+            <else />
+            <a href="{:U('/Jz/reqzstatus',array(status=>0,qiuzhi_id=>$vo[qiuzhi_id]))}">求职</a>
+            </if>
+            &nbsp&nbsp&nbsp&nbsp<a href="{:U('/Jz/delqz',array(qiuzhi_id=>$vo[qiuzhi_id]))}">删除</a></td>
+            </tr>
+        </if>
+    </volist>
+    </table>

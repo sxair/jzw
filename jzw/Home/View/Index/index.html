@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>家政网</title>
+	<script type="text/javascript">
+	var url="/index.php/Index";
+ 	</script>
+	<link rel="stylesheet" type="text/css" href="/Public/css/jzw.css" />
+ 	<script src="/public/js/jQuery.js"></script>
+ 	<script src="/Public/js/jzw.js"></script>
+  	<script src="/Public/city-picker/city-data.js"></script>
+ 	<script src="/Public/city-picker/city-picker.min.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="/Public/city-picker/city-picker.css" />
+</head>
+<body>
+<div id="global">
+<include file="Index/showlogo" />
+<include file="Index/showclassify" />
+
+<if condition="R('User/checklogin') eq 1"> <include file="User/userbar" />
+<else /> <include file="User/loginpage" />
+</if>
+
+<div id="info_border">
+<div style="padding:10px 10px 10px 10px;">
+选择地区：<input type="text" size="6" id="city-picker" name="positionname" value="{$position}" />
+	<script type="text/javascript">
+    var cityPicker = new HzwCityPicker({
+        data: data,
+        target: 'city-picker',
+        valType: 'k',
+        hideCityInput: {
+            name: 'city',
+            id: 'city'
+        },
+        hideProvinceInput: {
+            name: 'position',
+            id: 'province'
+        }
+    });
+    cityPicker.init();
+  	</script>
+工资：	<select name="gongzi" id="gongzi">
+			<option value="0" <if condition="$gongzi eq 0">selected="selected"</if> >不限</option>
+			<for start="1000" end="6000" step="1000" name="v">
+				<option value="{$v}" <if condition="$gongzi eq $v">selected="selected"</if> >{$v}</option>
+			</for>
+		</select><if condition="$type==-2">以上<else/>以下</if>&nbsp&nbsp&nbsp
+<input type="submit" id="find" value="查找">
+
+<if condition="$type==-2">
+	<table style="width:97%;margin:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">
+    <tr style="background:#D2F9F9">
+        <th>更新</th>
+        <th>标题</th>
+        <th>薪资/月</th>
+        <th>工作地</th>
+    </tr>
+    <volist name="jz" id="vo">
+    <if condition="$vo.zhaogong_id neq ''">
+    <tr><td>{$vo.createtime}</td>
+        <td><a href="{:U('/Jz/zginfo',array('id'=>$vo[zhaogong_id]))}"  target="_Blank">{$vo.title}</a></td>
+        <td>{$vo.fgongzi}~{$vo.sgongzi}</td>
+        <td>{$vo.positionname}</td>
+    </tr>
+    </if>
+    </volist>
+	</table>
+<else />
+    <table style="width:97%;margin:5px;">
+    <tr style="background:#D2F9F9">
+        <th>照片</th>
+        <th>姓名</th>
+        <th>薪资/月</th>
+        <th>工作地</th>
+        <th>学历</th>
+        <th>食宿</th>
+        <th>更新时间</th>
+    </tr>
+    <volist name="jz" id="v">
+        <if condition="$v.qiuzhi_id neq ''">
+        <tr><td ><a href="{:U('/Jz/qzinfo',array('id'=>$v[qiuzhi_id]))}" target="_Blank"><img src="/qzpicture/{$v.qiuzhi_id}.jpg" style="width: 77px; height: 88px; display: inline;"></a></td>
+            
+            <td><a href="{:U('/Jz/qzinfo',array('id'=>$v[qiuzhi_id]))}" target="_Blank">{$v.name}<if condition="$v.sex eq 0">女士<else /> 先生</if></a></td>
+            <td>{$v.fgongzi}~{$v.sgongzi}</td>
+            <td>{$v.positionname}</td>
+            <td>{$xueli[$v[xueli]] }</td>
+            <td>{$shisu[$v[shisu]]}</td>
+            <td>{$v.createtime}</td>
+        </tr>
+        </if>
+    </volist>
+    </table>
+</if>
+<div class="page" style="margin:10px;text-align:right;">{$page}</div>
+</div>
+</div>
+<include file="Index/qiuzhi" />
+<include file="Index/showjiazhenggongsi" />
+</div>
+<include file="Index/tail"/>
+</body>
+</html>

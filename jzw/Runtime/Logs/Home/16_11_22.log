@@ -1,0 +1,9 @@
+[ 2016-11-22T22:24:20+08:00 ] 127.0.0.1 /peer/command/resume
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+ERR: 无法加载控制器:Peer
+

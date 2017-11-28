@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>admin</title>
+    <link rel="stylesheet" type="text/css" href="/Public/css/jzw.css" />
+</head>
+<body>
+<div style="margin-left:250px">
+		<table class="bluetable">
+			<tr><th>标号</th>
+				<th>用户名</th>
+				<th>操作</th>
+			</tr>
+			<volist name="user" id="vo">
+			<tr><td>{$vo['id']}</td>
+				<td>{$vo['user_name']}</td>
+				<td>
+				<if condition="$vo[type] gt 1"><a href="{:U('/Admin/distype',array(id=>$vo['id']))}">取消认证</a></if>
+				<if condition="$vo[type] eq 1"><a href="{:U('/Admin/starttype',array(id=>$vo['id']))}" target="_blank">开始认证</a></if>
+				<if condition="$vo[type] eq 0">未提交</if>
+				</td>
+			</tr>
+			</volist>
+		</table>
+		<div class="page" style="margin:10px 0 0 200px;">{$page}</div>
+</div>
+</body>
+</html>

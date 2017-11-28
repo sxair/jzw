@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>家政网</title>
+	<script type="text/javascript">
+	var url="/index.php/Index";
+ 	</script>
+	<link rel="stylesheet" type="text/css" href="/Public/css/jzw.css" />
+ 	<script src="/public/js/jQuery.js"></script>
+ 	<script src="/Public/js/jzw.js"></script>
+</head>
+<body>
+<div id="global">
+<include file="Index/showlogo" />
+    <div class="infobox">
+        <div class="infotitle">
+        <i></i><font color=#408EE6> 招工信息</font>
+        </div>
+        <ul class="infoul">
+        <li><b>标题:</b><font color="#0F0F0F">{$data[title]}</font></li>
+        <li>
+            <div class="dinfo">
+                <b>工资：</b>{$data[fgongzi]}~{$data[sgongzi]}
+            </div>
+            <div class="dinfo">
+                <b>发布状态：</b><if condition="$data[status] eq 0"><font color="blue">招收中</font><else/><font color="red">已招到</font></if>
+            </div>
+        </li>
+        <li><div class="dinfo"><b>工作：</b>{$class[$data[type]]}</div>
+            <div class="dinfo"><b>食宿：</b>{$shisu[$data[shisu]]}</div> 
+        </li>
+        <li><b>学历要求：</b>{$xueli[$data[xueli]]}或以上</li>
+        <li><b>工作地点：</b>{$data[positionname]} {$data[jiedao]}</li>
+        <div style="margin:5px 0 5px 0 "><b>具体内容：</b>{$data[content]}</div>
+        </ul>
+    </div>
+    <div class="show">
+        <div class="showtitle">
+        <i></i><font color=#FF526A> 最近更新</font>
+        </div>
+        <ul class="infoul">
+        <volist name="alldata" id="vo">
+        <li><a href="{:U('/Jz/zginfo',array('id'=>$vo[zhaogong_id]))}">{$vo.title}</a></li>
+        </volist>
+        </ul>
+    </div>
+    <div class="maninfo">
+        <div class="mantitle">
+        <i></i><font color=#FF526A> 联系方式</font>
+        </div>
+        <ul class="infoul">
+        <li><b>发布者：</b>{$data[name]}<if condition="$data[sex] eq 0">女士<else /> 先生</if></li>
+        <li><b>电话：</b>{$data.phone}</li>
+        <li><b>qq：</b><a  href="tencent://message/?uin={$data[qq]}&Site=&Menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:3320298022:41" alt="点击联系我" title="点击联系我"></a></li>
+        </ul>
+    </div>
+</div>
+<include file="Index/tail"/>
+</body>
+</html>

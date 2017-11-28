@@ -1,0 +1,14 @@
+<div style="margin:0px 0px 0px 500px">
+<img src="/picture/{$id}.jpg" style="height:350px" ><br/>
+身份证号：{$id_card}<br/><br/>
+<form action="__URL__/checkid_ok" method="post" style="display:inline-block">
+<input type="hidden" name="type" value="2">
+<input type="hidden" name="id" value="{$id}">
+<input type="submit" value="通过" />
+</form>
+<form action="__URL__/checkid_ok" method="post" style="display:inline-block;padding-left:30px;">
+<input type="hidden" name="type" value="0">
+<input type="hidden" name="id" value="{$id}">
+<input type="submit" value="拒绝" />
+</form>
+</div>

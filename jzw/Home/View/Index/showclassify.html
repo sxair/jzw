@@ -1,0 +1,10 @@
+<div id="classify">
+<ul class="classify_ul">
+<li class="<if condition="I('z') eq -2">first_onclick <else/> first_but</if>" id="-2">招工信息</li>
+<li class="<if condition="I('z') eq -1">first_onclick <else/> first_but</if> " id="-1">求职信息</li>
+<foreach name="class" item="vo" key="k" >
+<li class="<if condition="I('type') eq $k">classify_onclick<else/> classify_but</if>" id= "{$k}">{$vo}</li>
+</foreach>
+
+</ul>
+</div>

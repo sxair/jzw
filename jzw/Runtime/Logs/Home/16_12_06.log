@@ -1,0 +1,856 @@
+[ 2016-12-06T22:20:19+08:00 ] ::1 /index.php/Admin/addjiazhenggongsi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `jiazhenggongsi` [ RunTime:0.0009s ]
+SQL: INSERT INTO `jiazhenggongsi` (`name`,`url`) VALUES ('三鼎家政','123') [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-12-06T22:20:20+08:00 ] ::1 /index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `checkid` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `checkid` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp64\www\jzw\Home\Controller\AdminController.class.php 第 11 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp64\www\jzw\Home\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zhaogong` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zhaogong`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qiuzhi` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `qiuzhi`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `jiazhenggongsi` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jiazhenggongsi`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2016-12-06T22:20:20+08:00 ] ::1 /index.php/Admin/showuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\wamp64\www\jzw\Home\Controller\AdminController.class.php on line 187 and defined C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-12-06T22:20:20+08:00 ] ::1 /index.php/Admin/glqz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `qiuzhi` [ RunTime:0.0012s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\wamp64\www\jzw\Home\Controller\AdminController.class.php on line 173 and defined C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `qiuzhi` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where C:\wamp64\www\jzw\Home\Controller\AdminController.class.php 第 177 行.
+SQL: SELECT * FROM `qiuzhi` ORDER BY createtime desc LIMIT 0,13   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-12-06T22:20:20+08:00 ] ::1 /index.php/Admin/glzg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `zhaogong` [ RunTime:0.0015s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\wamp64\www\jzw\Home\Controller\AdminController.class.php on line 155 and defined C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zhaogong` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where C:\wamp64\www\jzw\Home\Controller\AdminController.class.php 第 159 行.
+SQL: SELECT * FROM `zhaogong` ORDER BY createtime desc LIMIT 0,13   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000392s ]
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 28 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 28 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2016-12-06T22:34:24+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `zhaogong` [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant z - assumed 'z' C:\wamp64\www\jzw\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zhaogong` WHERE `type` = 0 AND `status` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zhaogong` WHERE `type` = 0 AND `status` = 0 ORDER BY createtime desc LIMIT 0,21   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `jiazhenggongsi` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jiazhenggongsi`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: position C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 61 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\64f21543acd4a4c3a729944672a22ccf.php 第 92 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-12-06T22:34:28+08:00 ] ::1 /index.php/Admin/loginpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-12-06T22:34:31+08:00 ] ::1 /index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `jzadmin` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jzadmin` WHERE `id` = 'admin' AND `password` = '21232f297a57a5a743894a0e4a801fc3'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2016-12-06T22:34:32+08:00 ] ::1 /index.php/Admin/loginpage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-12-06T22:34:35+08:00 ] ::1 /index.php/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `jzadmin` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `jzadmin` WHERE `id` = 'admin' AND `password` = '202cb962ac59075b964b07152d234b70'  [ RunTime:0.0003s ]
+
+[ 2016-12-06T22:34:35+08:00 ] ::1 /index.php/Admin/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `checkid` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `checkid` LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp64\www\jzw\Home\Controller\AdminController.class.php 第 11 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp64\www\jzw\Home\Controller\AdminController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zhaogong` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zhaogong`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `qiuzhi` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `qiuzhi`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jiazhenggongsi` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jiazhenggongsi`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000268s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2016-12-06T22:34:35+08:00 ] ::1 /index.php/Admin/showuser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\wamp64\www\jzw\Home\Controller\AdminController.class.php on line 185 and defined C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 18 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 19 行.
+NOTIC: [8] Use of undefined constant type - assumed 'type' C:\wamp64\www\jzw\Runtime\Cache\Home\eb70b3a1864739356a5324533c946223.php 第 20 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014690s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2016-12-06T22:34:35+08:00 ] ::1 /index.php/Admin/glqz.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `qiuzhi` [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\wamp64\www\jzw\Home\Controller\AdminController.class.php on line 171 and defined C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `qiuzhi` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where C:\wamp64\www\jzw\Home\Controller\AdminController.class.php 第 175 行.
+SQL: SELECT * FROM `qiuzhi` ORDER BY createtime desc LIMIT 0,13   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 22 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 23 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 24 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 25 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+NOTIC: [8] Use of undefined constant qiuzhi_id - assumed 'qiuzhi_id' C:\wamp64\www\jzw\Runtime\Cache\Home\502e019ae5bdf19f7944fd6b4a99cb81.php 第 28 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2016-12-06T22:34:35+08:00 ] ::1 /index.php/Admin/glzg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `zhaogong` [ RunTime:0.0011s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in C:\wamp64\www\jzw\Home\Controller\AdminController.class.php on line 153 and defined C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where C:\wamp64\www\ThinkPHP\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zhaogong` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: where C:\wamp64\www\jzw\Home\Controller\AdminController.class.php 第 157 行.
+SQL: SELECT * FROM `zhaogong` ORDER BY createtime desc LIMIT 0,13   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 28 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 28 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 26 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 27 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 30 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+NOTIC: [8] Use of undefined constant zhaogong_id - assumed 'zhaogong_id' C:\wamp64\www\jzw\Runtime\Cache\Home\8fec501e562b54e7439ec6005f53089d.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019962s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+

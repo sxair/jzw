@@ -1,0 +1,44 @@
+*{margin:0; padding:0; font-size:20px; font-family:Arial, Helvetica, sans-serif,"宋体";}
+#global{margin:0px auto;width:1000px;height: 950px;}
+#logo{font-size: 0px}
+ul{list-style: none;}
+a{text-decoration:none;}
+table{border-collapse:collapse;}
+.classify_ul{text-align:center;}
+.classify_ul li{float: left;display:block;line-height:50px; width:100px;}
+.classify_ul {display:block;text-align:center;color:#FFFFFF;}
+.classify_onclick {background-color:#FF88AE;}
+.classify_but { background-color:#59D5FB;}
+.first_onclick {background-color:#F92BA8;}
+.first_but {background-color:#7E9BFF;}
+#loginpage_border,#jiazhenggongsi_border{width: 250px;margin: 10px 0px 0px 0px;}
+#loginpage_border,#jiazhenggongsi_border,#info_border{border:2px #B2FFF8 solid;border-radius:25px;-moz-border-radius:25px;}
+#loginpage_border{float: left;height: 185px;}
+#info_border{float: right;margin: 10px 0px 0px 0px;width:730px;height: 785px;}
+#jiazhenggongsi_border{float:left;height:585px;}
+#loginpage{position: relative;left: 10px;top: 20px;}
+.loginpage_loginbut{position: relative;left: 40px;}
+.loginpage_register{position: relative;left: 60px;}
+#registertable{margin: 12px 0px 12px 0px}
+.bluetable table,th,td{border: 1px solid #A6C9E2;height: 30px;padding-left: 10px;}
+.table_left{width: 120px;}
+.table_right{width: 300px;}
+#jiazhenggongsi_border a{color: #656678};
+.prev {display: block;}
+.page a ,.page .current{margin: 0 2px;font-size: 20px;border: 1px solid #5FA623;}
+.page .current,.page a:hover{background:#7AB63F;color: #FFF;}
+
+b{color: green}
+.xuxian{border-bottom:1px #ccc dashed;margin:2px}
+.infobox{width: 600px;border: 1px solid #dbdbdb;margin-top:10px;float: left}
+.maninfo{width: 600px;border: 1px solid #dbdbdb;margin-top:10px;float: left;}
+.infotitle{line-height: 30px;color: #408EE6; border-bottom: 1px solid #70BFEA;margin: 5px;}
+.dinfo{ height: 40px;width:300px;float: left;}
+.infoul ul,.infoul li{height: 40px;line-height: 40px;color: grey;border-bottom: 1px dashed #dbdbdb;}
+.mantitle{line-height: 30px;color: #FF526A; border-bottom: 1px solid #FF526A;margin: 5px;}
+.allzg{width: 180px;height:170px;margin:5px 0 0px 5px; border: 1px solid #dbdbdb;float: left;text-align: center;}
+.infobox i{background-image:url(/Public/image/tinfo.png);background-repeat:no-repeat;width: 25px;height: 25px;display:inline-block}
+.mantitle i,.showtitle i{background-image:url(/Public/image/userinfo.png);background-repeat:no-repeat;width: 25px;height: 25px;display:inline-block}
+
+.showtitle{line-height: 30px;color: #408EE6; border-bottom: 1px solid #408EE6;margin: 5px;}
+.show{width: 380px;border: 1px solid #dbdbdb;margin-top:10px;float: right;}

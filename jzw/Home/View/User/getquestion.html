@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>找回密码</title>
+</head>
+<body>
+<div style="margin:0px auto;text-align:center">
+<form action="__URL__/sendmail" method="get">
+	用户：{$data.user_name}<br/>
+	密保问题：{$data.question}<br />
+	答案：<input type="text" name="answer">
+	<input type="hidden" name="id" value="{$data.id}">
+	<input type="submit" value="提交">
+</form>
+</div>
+</body>
+</html>

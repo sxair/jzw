@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>上传身份证</title>
+	<link rel="stylesheet" type="text/css" href="/Public/css/jzw.css" />
+ 	<script src="/public/js/jQuery.js"></script>
+ 	<script src="/Public/js/jzw.js"></script>
+</head>
+<body>
+<div id="global">
+<include file="Index/showlogo" />
+<div style="text-align:center;padding-top:30px">
+<form action="__URL__/upload_idpicture" enctype="multipart/form-data" method="post" >
+<input type="file" name="picture" />
+<input type="submit" value="提交" >（只能提交jpg图片）
+</form>
+</div>
+</div>
+<include file="Index/tail"/>
+</body>
+</html>
